@@ -1,0 +1,33 @@
+<svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="48" height="48" rx="12" fill="#090A0F" />
+  <rect width="48" height="48" rx="12" stroke="#2DD4BF" stroke-width="1.5" stroke-opacity="0.3" />
+  
+  <defs>
+    <linearGradient id="favicon-grad" x1="6" y1="8" x2="42" y2="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stopColor="#2DD4BF" />
+      <stop offset="50%" stopColor="#06B6D4" />
+      <stop offset="100%" stopColor="#10B981" />
+    </linearGradient>
+    <linearGradient id="favicon-accent" x1="12" y1="12" x2="36" y2="36" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stopColor="#A7F3D0" />
+      <stop offset="60%" stopColor="#2DD4BF" />
+      <stop offset="100%" stopColor="#0284C7" />
+    </linearGradient>
+  </defs>
+
+  <!-- Left Audio Pillar -->
+  <rect x="8.5" y="14" width="4.5" height="20" rx="2.25" fill="url(#favicon-grad)" />
+
+  <!-- Right Audio Pillar -->
+  <rect x="35" y="14" width="4.5" height="20" rx="2.25" fill="url(#favicon-grad)" />
+
+  <!-- Stylized Folded Ribbon M -->
+  <path d="M 13 16 L 24 28 L 35 16 L 35 22.5 L 24 34.5 L 13 22.5 Z" fill="url(#favicon-accent)" />
+
+  <!-- Apex Spark Chevron -->
+  <path d="M 16 13.5 L 24 21.5 L 32 13.5 L 28.5 10 L 24 14.5 L 19.5 10 Z" fill="url(#favicon-grad)" />
+
+  <!-- Star Spark -->
+  <path d="M 24 4 Q 24 10 30 10 Q 24 10 24 16 Q 24 10 18 10 Q 24 10 24 4 Z" fill="#FFFFFF" />
+  <circle cx="24" cy="10" r="1.2" fill="#5EEAD4" />
+</svg>
